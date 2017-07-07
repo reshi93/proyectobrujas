@@ -1,0 +1,247 @@
+body{
+    /*background-color: rgb(255, 255, 255);
+    /*background-image: url("../images/fondo3.png");*/
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.bville{
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+.round{
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+.impact{
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+}
+
+main {
+    flex: 1 0 auto;
+  }
+
+a:hover{
+    text-decoration: none;
+}
+
+h3{
+    color: rgb(77, 40, 120);
+}
+
+h5{
+    font-size: 18px;
+}
+
+.header2{
+  background-color: rgb(110, 34, 157);
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 420px;
+}
+
+.header1{
+    position: relative;
+    display: inline-block;
+    align-items: center!important;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    left: 0%;
+    padding: 10px;
+    /*background: linear-gradient(rgb(95, 27, 157), rgb(164, 99, 222), rgb(95, 27, 157), rgb(79, 22, 131), rgb(55, 13, 94), rgb(55, 13, 94));*/
+    background-color: rgb(143, 54, 223);
+    background-size: 100% 200%;
+    border-radius: 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.ajuste_header{
+  position: relative;
+  top: 13%;
+
+}
+
+.logo{
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  transition: all 1s;
+}
+
+.slogan{
+  height: 300px;
+  overflow: visible!important;
+  color: rgb(233, 224, 242)!important;
+}
+
+.contenido{
+  position: relative;
+  top: 0px;
+  left: 5%;
+  width: 90%;
+  height: auto;
+  overflow: visible!important;
+  padding: 0px;
+}
+
+.bcolor1{
+  background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(216, 80, 193));
+}
+
+.bcolor2{
+  left: 0%;
+  height: auto;
+  width: 100%;
+  /*background: linear-gradient(rgb(216, 80, 193), rgb(209, 43, 181), rgb(219, 8, 184), rgb(99, 32, 80), rgb(99, 32, 98), rgb(83, 32, 99), rgb(67, 32, 99), rgb(45, 32, 99), rgb(32, 40, 99));*/
+  background: linear-gradient(rgb(216, 80, 193), rgb(160, 53, 218), rgb(65, 34, 215));
+}
+
+/*.contraste{
+  background: linear-gradient(to right, rgba(240, 223, 249, 0), rgba(240, 223, 249, .35), rgba(240, 223, 249, 0.35), rgba(240, 223, 249, 0));
+}*/
+
+.secciones{
+  background-color: white;
+  padding: 0px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 1.5px solid rgba(100, 100, 100, 0.2);
+  border-radius: 5px;
+}
+
+.sec_int{
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  overflow: hidden!important;
+}
+
+.sec_tit{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  color: black;
+  overflow: hidden!important;
+}
+
+.sec_info{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 0%;
+  padding: 10px;
+  color: white;
+  overflow: hidden!important;
+  text-align: center;
+}
+
+.slide{
+  height: 490px;
+  width: 100%;
+  overflow: hidden!important;
+}
+
+.ajuste_slide{
+  position: relative;
+  transform: scale(1.5,1.5);
+  left: 15%;
+  top: 20%;
+}
+
+.donaciones{
+  margin: 10%;
+  text-align: center!important;
+  align-items: center!important;
+}
+
+hr {
+  border: 1px solid rgba(100, 100, 100, 0.2);
+  border-radius: 200px /2px;
+  width: 100%;
+  height: 0px;
+  text-align: center;
+  margin: 0px;
+}
+
+a.collection-item{
+  height: 50px;
+  overflow-y: hidden!important;
+  transition: height 1s;
+
+}
+
+a.collection-item:hover{
+  height: auto;
+  overflow-y: hidden!important;
+}
+
+.collection a.collection-item {
+    color: rgb(33, 36, 48);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.collection .collection-item.active {
+    background-color: rgb(80, 114, 201);
+}
+
+.collection:hover a.collection-item:hover {
+    background-color: rgb(143, 54, 223);
+    color: rgb(225, 216, 237);
+}
+
+.collection.with-header .collection-header{
+    background-color: rgb(10, 50, 117);
+    color: rgb(240, 240, 240);
+}
+
+.separador{
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+
+.reproductor{
+  width: 100%;
+  /*overflow: hidden!important;*/
+  /*transform: scale(.6,.7);*/
+}
+
+.ajuste_reproductor{
+  position: relative;
+  width: 100%;
+  padding: 0px;
+}
+
+.jp-audio{
+  transform: scale(0.6, 0.7);
+}
+
+a:active{
+  text-decoration: none;
+}
+
+/*  FOOTER   */
+
+.page-footer{
+  background-color: rgba(143, 54, 223, 0)!important;
+  margin: 0px!important;
+  width: 100%!important;
+  left: 0px!important;
+}
+
+.foot{
+  width: 100%!important;
+  left: 0px;
+}
